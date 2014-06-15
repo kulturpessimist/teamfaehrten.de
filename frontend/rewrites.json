@@ -1,5 +1,9 @@
 [
 	{
+		"from": "/favicon.ico",
+		"to": "img/favicon.ico"
+	},
+	{
 		"from": "/*",
 		"to": "*"
 	}
