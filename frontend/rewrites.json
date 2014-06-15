@@ -4,6 +4,10 @@
 		"to": "img/favicon.ico"
 	},
 	{
+		"from": "/",
+		"to": "index.html"
+	},
+	{
 		"from": "/*",
 		"to": "*"
 	}
