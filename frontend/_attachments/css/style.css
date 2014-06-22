@@ -34,7 +34,7 @@ a{
 	left: 50%;
 	top:50%;
 	margin-left: -24%;
-	margin-top: -25%;
+	margin-top: -15%;
 }
 
 .content p{
@@ -47,7 +47,7 @@ a{
 	font-size: 110%;
 	line-height: 120%;
 	
-	text-shadow: 0 0 3px #222;
+	text-shadow: 0 0 5px #222;
 }
 
 @media only screen and (max-width: 480px) {

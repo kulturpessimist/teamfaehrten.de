@@ -32,8 +32,6 @@ module.exports = function(grunt) {
 			}
 		}
 	});
-
-	console.log(grunt.config.cloudant)
 	
 	grunt.loadNpmTasks('grunt-couch');
 	grunt.loadNpmTasks('grunt-contrib-connect');
