@@ -1,7 +1,6 @@
 @import url("normalize.css");
 @import url("main.css");
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
-@import url("//fonts.googleapis.com/css?family=Fira+Sans:300,400");
 
 html,body{
 	margin: 0px;
@@ -9,11 +8,15 @@ html,body{
 	width: 99%;
 	height: 99%;
 	
-	font-family: 'Fira Sans', sans-serif;
+	font-family: Helvetica, Arial, Sans;
 }
 body{
-	background: url('../img/bg.jpg') no-repeat center center fixed;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
 	background-size: cover;
+	-ms-behavior: url(http://schedlerco.cloudant.com/teamfaehrten/_design/website/_rewrite/css/backgroundsize.min.htc);
 }
 a{
 	color: white;
@@ -25,16 +28,19 @@ a{
 
 	height: 50%;
 
-	background-image: url('../img/logo.svg');
+	background-image: url(../img/logo.png);
+	background-image: url(../img/logo.svg), none;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 100%;
+	-ms-behavior: url(css/backgroundsize.min.htc);
 	
 	position: relative;
 	left: 50%;
 	top:50%;
 	margin-left: -24%;
 	margin-top: -15%;
+	min-height: 400px;
 }
 
 .content p{
@@ -56,7 +62,8 @@ a{
 		min-width: 300px;
 		height: 50%;
 	
-		background-image: url('../img/logo.svg');
+		background: url('../img/logo.png');
+		background: url('../img/logo.svg');
 		background-repeat: no-repeat;
 		background-position: top center;
 		background-size: 100%;
